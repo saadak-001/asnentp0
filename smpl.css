@@ -1,0 +1,67 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 40px;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .cntus {
+      max-width: 500px;
+    }
+
+    .cntus h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .cntus a {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 15px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .cntus a i {
+      margin-right: 8px;
+      color: #007BFF;
+    }
+
+    .cntus p {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .cntus p i {
+      color: red;
+      margin-right: 8px;
+    }
+
+    .right-image img {
+      width: 318px;
+      height: 329px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .right-image {
+        margin-top: 20px;
+      }
+    }
